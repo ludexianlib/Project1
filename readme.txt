@@ -22,3 +22,10 @@ git stash: 修改bug暂时储藏该分支，修复后合并
 git stash list
     git stash apply & git stash drop  == git stash pop
     git stash apply stash@{0}: 恢复指定的stash
+
+git cherry-pick "id": 修改后的部分matser分支通过提交的id复制到当前分支
+
+git branch -D "branch": 强制删除未经过合并的分支
+
+测试：多人协同
+    git checkout -b dev origin/dev
