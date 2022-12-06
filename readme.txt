@@ -14,3 +14,4 @@ git branch -d dev
 git merge featurel: 在不同分支出现冲突解决
 
 test sequence: this is master branch;
+test sequence: this is dev branch;
