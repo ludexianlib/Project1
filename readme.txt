@@ -15,3 +15,6 @@ git merge featurel: 在不同分支出现冲突解决
     // 手动修改要保存的内容
 
 git merge --no-ff -m "Info" dev: 这种merge方式可查看删除的历史分支信息
+git stash list
+    git stash apply & git stash drop  == git stash pop
+    git stash apply stash@{0}: 恢复指定的stash
