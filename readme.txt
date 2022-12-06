@@ -12,6 +12,6 @@ git merge dev
 git branch -d dev
 
 git merge featurel: 在不同分支出现冲突解决
+    // 手动修改要保存的内容
 
-test sequence: this is master branch;
-test sequence: this is master branch;
+git merge --no-ff -m "Info" dev: 这种merge方式可查看删除的历史分支信息
