@@ -29,3 +29,13 @@ git branch -D "branch": 强制删除未经过合并的分支
 
 测试：多人协同
     git checkout -b dev origin/dev
+    git push origin "branch": 推送分支
+    1.git branch --set-upstream-to=origin/dev dev: 本地与远程分支链接
+        git pull
+        修改: git push origin <branch-name>
+    
+git rebase: 将本地未push的分支merge历史整理成直线
+
+git tag <name> (id): 将历史commit id打标签
+    git tag -a v0.1 -m "version 0.1 released" id
+git show <name>
