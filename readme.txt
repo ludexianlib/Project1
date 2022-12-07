@@ -39,3 +39,4 @@ git rebase: 将本地未push的分支merge历史整理成直线
 git tag <name> (id): 将历史commit id打标签
     git tag -a v0.1 -m "version 0.1 released" id
 git show <name>
+    git reset -- v1.2
